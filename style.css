@@ -1,0 +1,27 @@
+.product {
+    border: 1px solid;
+    border-color: whitesmoke;
+    box-shadow: 3px 3px 10px 1px #88888833;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.product-image {
+    position: relative;
+}
+
+.product-sale {
+    position: absolute;
+    padding: 5px 8px;
+    background-color: #f3581f;
+    border-radius: 4px;
+    left: 12px;
+    bottom: 12px;
+}
+
+.product-cost {
+    display: flex;
+    justify-content: space-between;
+}
